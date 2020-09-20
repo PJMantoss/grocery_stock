@@ -1,6 +1,6 @@
 //Variables
 const downBtn = document.querySelector("#downBtn");
-const upBtn = document.querySelector("#upBtn");
+const upButton = document.querySelector("#upBtn");
 const buyListDisplay = document.querySelector("#first-list");
 const fridgeListDisplay = document.querySelector("#second-list");
 
@@ -18,21 +18,21 @@ fridge.unshift(item);
 function moveUp(){
     let grocery = fridge.pop();
     buyList.push(grocery);
-    buyListDisplay.innerHTML = buyList;
-    fridgeListDisplay.innerHTML = fridge;
-}
+    buyListDisplay.textContent = buyList;
+    fridgeListDisplay.textContent = fridge;
+};
 
-upBtn.addEventListener('click', moveUp);
+upButton.addEventListener('click', moveUp);
 
 //Remove last item in buyList and put it in the fridge
 function moveDown(){
     let item = buyList.pop();
     fridge.unshift(item);
-    buyListDisplay.innerHTML = buyList;
-    fridgeListDisplay.innerHTML = fridge;
+    buyListDisplay.textContent = buyList;
+    fridgeListDisplay.textContent = fridge;
 }
 
 downBtn.addEventListener('click', moveDown);
 
-buyListDisplay.innerHTML = buyList;
-fridgeListDisplay.innerHTML = fridge;
+buyListDisplay.textContent = buyList;
+fridgeListDisplay.textContent = fridge;
