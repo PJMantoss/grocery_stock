@@ -21,3 +21,5 @@ function moveUp(){
     buyList.textContent = buyList;
     fridgeListDisplay.textContent = fridge;
 }
+
+upBtn.addEventListener('click', moveUp());
