@@ -16,3 +16,16 @@ body {
     padding: 10px;
 }
 
+button {
+    height: 30px;
+    width: 100px;
+    background-color: #FFABAB;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+#down {
+    width: 150px;
+    background-color: #6EB5FF;
+}
