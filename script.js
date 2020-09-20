@@ -18,8 +18,8 @@ fridge.unshift(item);
 function moveUp(){
     let grocery = fridge.pop();
     buyList.push(grocery);
-    buyListDisplay.textContent = buyList;
-    fridgeListDisplay.textContent = fridge;
+    buyListDisplay.innerHTML = buyList;
+    fridgeListDisplay.innerHTML = fridge;
 }
 
 upBtn.addEventListener('click', moveUp);
@@ -28,11 +28,11 @@ upBtn.addEventListener('click', moveUp);
 function moveDown(){
     let item = buyList.pop();
     fridge.unshift(item);
-    buyListDisplay.textContent = buyList;
-    fridgeListDisplay.textContent = fridge;
+    buyListDisplay.innerHTML = buyList;
+    fridgeListDisplay.innerHTML = fridge;
 }
 
 downBtn.addEventListener('click', moveDown);
 
-buyListDisplay.textContent = buyList;
-fridgeListDisplay.textContent = fridge;
+buyListDisplay.innerHTML = buyList;
+fridgeListDisplay.innerHTML = fridge;
