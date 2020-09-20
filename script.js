@@ -13,3 +13,8 @@ fridge.push('spaghetti','egg','bread','peanut','salad');
 //Some items on the buyList have been bought. Move them to the fridge
 let item = buyList.shift();
 fridge.unshift(item);
+
+//Move an item from the fridge to the buyList on clicking move Up btn
+function moveUp(){
+    
+}
