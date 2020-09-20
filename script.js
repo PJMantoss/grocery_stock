@@ -22,4 +22,17 @@ function moveUp(){
     fridgeListDisplay.textContent = fridge;
 }
 
-upBtn.addEventListener('click', moveUp());
+upBtn.addEventListener('click', moveUp);
+
+//Remove last item in buyList and put it in the fridge
+function moveDown(){
+    let item = buyList.pop();
+    fridge.unshift(item);
+    buyListDisplay.textContent = buyList;
+    fridgeListDisplay.textContent = fridge;
+}
+
+downBtn.addEventListener('click', moveDown);
+
+buyListDisplay.textContent = buyList;
+fridgeListDisplay.textContent = fridge;
