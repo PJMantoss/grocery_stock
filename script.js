@@ -18,7 +18,7 @@ fridge.unshift(item);
 function moveUp(){
     let grocery = fridge.pop();
     buyList.push(grocery);
-    buyList.textContent = buyList;
+    buyListDisplay.textContent = buyList;
     fridgeListDisplay.textContent = fridge;
 }
 
