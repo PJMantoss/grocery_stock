@@ -5,6 +5,8 @@
 
 body {
     box-sizing: border-box;
+    background: #DCD3FF;
+    color: black;
 }
 
 .grid {

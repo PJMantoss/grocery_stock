@@ -1,6 +1,6 @@
 //Variables
-const downBtn = document.querySelector("#down");
-const upBtn = document.querySelector("#up");
+const downBtn = document.querySelector("#downBtn");
+const upBtn = document.querySelector("#upBtn");
 const buyListDisplay = document.querySelector("#first-list");
 const fridgeListDisplay = document.querySelector("#second-list");
 
