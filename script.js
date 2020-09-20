@@ -16,5 +16,8 @@ fridge.unshift(item);
 
 //Move an item from the fridge to the buyList on clicking move Up btn
 function moveUp(){
-    
+    let grocery = fridge.pop();
+    buyList.push(grocery);
+    buyList.textContent = buyList;
+    fridgeListDisplay.textContent = fridge;
 }
