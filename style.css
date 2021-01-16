@@ -49,6 +49,7 @@ button {
         display: flex;
         flex-direction: column;
         margin: 20px;
+        padding: 20px;
         width: 100%;
     }
 
@@ -58,11 +59,12 @@ button {
 
     .btn-container {
         display: flex;
-        align-items: center;
+        align-content: center;
     }
 
     .grid {
         height: auto;
+        width: 90%;
     }
 
     #downBtn {
