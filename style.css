@@ -9,6 +9,12 @@ body {
     color: black;
 }
 
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .grid {
     background-color: #FFFFFF;
     width: 380px;
