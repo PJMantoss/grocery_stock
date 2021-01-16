@@ -30,12 +30,6 @@ body {
     padding: 10px;
 }
 
-@media(max-wdith: 600px){
-    .grid {
-        height: auto;
-    }
-}
-
 button {
     height: 30px;
     width: 100px;
@@ -48,4 +42,10 @@ button {
 #downBtn {
     width: 150px;
     background-color: #6EB5FF;
+}
+
+@media(max-wdith: 600px){
+    .grid {
+        height: auto;
+    }
 }
