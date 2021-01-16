@@ -57,7 +57,7 @@ button {
         height: auto;
     }
 
-    button {
-        width: 60px;
+    #downBtn {
+        width: 100px;
     }
 }
