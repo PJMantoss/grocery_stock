@@ -30,6 +30,10 @@ body {
     padding: 10px;
 }
 
+@media(max-wdith: 600px){
+    .grid {}
+}
+
 button {
     height: 30px;
     width: 100px;
