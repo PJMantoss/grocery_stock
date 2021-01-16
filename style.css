@@ -31,7 +31,9 @@ body {
 }
 
 @media(max-wdith: 600px){
-    .grid {}
+    .grid {
+        height: auto;
+    }
 }
 
 button {
