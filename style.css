@@ -62,6 +62,10 @@ button {
         justify-content: center;
     }
 
+    button {
+        margin: 8px;
+    }
+
     .grid {
         height: auto;
     }
