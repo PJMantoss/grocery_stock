@@ -45,7 +45,18 @@ button {
 }
 
 @media(max-wdith: 600px){
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
     .grid {
         height: auto;
+    }
+
+    button {
+        width: 60px;
     }
 }
